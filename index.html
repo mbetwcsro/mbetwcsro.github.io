@@ -47,6 +47,16 @@ h1 {
   margin-bottom: 30px;
 }
 
+.hero-image {
+  height: 140px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s ease;
+  background-image: url('images/row-0-column-1.png');
+}
+
 /* CARDS */
 .cards {
   display: grid;
@@ -161,7 +171,9 @@ h1 {
   <h1>Payments.</h1>
 
   <!-- HERO -->
-  <div class="hero"></div>
+  <div class="hero">
+    <div class="hero-image"></div>
+  </div>
 
   <!-- CARDS -->
   <div class="cards">
