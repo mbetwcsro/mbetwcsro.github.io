@@ -67,6 +67,28 @@ h1 {
   margin-top: 10px;
 }
 
+.card-image {
+  height: 140px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s ease;
+}
+
+/* konkrétní obrázky */
+.card1 {
+  background-image: url('images/row-1-column-1.png');
+}
+
+.card2 {
+  background-image: url('images/row-1-column-2.png');
+}
+
+.card3 {
+  background-image: url('images/row-1-column-3.png');
+}
+
 /* SECOND BLOCK */
 .block {
   background: var(--card);
@@ -144,12 +166,15 @@ h1 {
   <!-- CARDS -->
   <div class="cards">
     <div class="card">
+      <div class="card-image card1"></div>
       <h3>Modern payment cards<br><span style="color:var(--muted)">Moderní platební karty</span></h3>
     </div>
     <div class="card">
+      <div class="card-image card2"></div>
       <h3>Secure processing<br><span style="color:var(--muted)">Bezpečné zpracování</span></h3>
     </div>
     <div class="card">
+      <div class="card-image card3"></div>
       <h3>Consulting excellence<br><span style="color:var(--muted)">Konzultační expertíza</span></h3>
     </div>
   </div>
